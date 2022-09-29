@@ -1,22 +1,17 @@
-import math
+print("===MENENTUKAN GRADE NILAI===")
+student_score= float(input("Insert your score : "))
 
-print("Note :")
-print("1. 90>a>b")
-print("2. h : tinggi menara")
-print("3. a : Sudut Elevasi terhadap Ujung Depan Kapal")
-print("4. b : Sudut Elevasi terhadap Ujung Belakang Kapal")
-print("5. c : Sudut Elevasi terhadap Kapal")
-print("6. AB : Panjang Kapal")
-print("7. BC : jarak kapal ke menara")
-print("8. AC : Panjang kapal + jarak kapal ke menara")
-
-h= float(input("Insert tower height = " ))
-a= float(input("Angle of elevation with respect to the Forward end of the ship = "))
-b= float(input("Angle of elevation with respect to the aft end of the ship = "))
-
-kapal_jarak_menara= math.tan(math.radians(a))*h
-jarakKapalkeMenara= math.tan(math.radians(b))*h
-panjang_kapal= kapal_jarak_menara-jarakKapalkeMenara
-
-print("Maka Panjang Kapal adalah", round(panjang_kapal, 1), "m")
-
+if student_score>=90 and student_score<=100:
+    print(f"Nilai {int(student_score)} = 'A' ")
+elif student_score>=80 and student_score<90 :
+    print(f"Nilai {int(student_score)} = 'B' ")
+elif student_score>=70 and student_score<80 :
+    print(f"Nilai {int(student_score)} = 'C' ")
+elif student_score>=60 and student_score<70 :
+    print(f"Nilai {int(student_score)} = 'D' ") 
+elif student_score>=40 and student_score<60 :
+    print(f"Nilai {int(student_score)} = 'E' ")
+elif student_score<40 :
+    print(f"Nilai {int(student_score)} = 'F' ")
+else :
+    print("niali melewati batasan")
