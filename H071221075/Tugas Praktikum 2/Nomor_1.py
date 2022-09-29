@@ -1,0 +1,7 @@
+Nilai_ = int(input("Masukkan Nilai : "))
+if Nilai_ >= 90: print("Nilai %d = 'A'" % (Nilai_))
+elif Nilai_ < 90 and Nilai_ >= 80: print("Nilai %d = 'B'" % (Nilai_))
+elif Nilai_ < 80 and Nilai_ >= 70: print("Nilai %d = 'C'" % (Nilai_))
+elif Nilai_ < 70 and Nilai_ >= 60: print("Nilai %d = 'D'" % (Nilai_))
+elif Nilai_ < 60 and Nilai_ >= 40: print("Nilai %d = 'E'" % (Nilai_))
+elif Nilai_ < 40: print("Nilai %d = 'F'" % (Nilai_))
