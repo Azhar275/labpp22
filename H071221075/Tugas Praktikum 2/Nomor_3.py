@@ -6,9 +6,7 @@ elif a <= c and b <= c:
     print("%d adalah nilai terbesar" % (c))
 else:
     print("%d adalah nilai terbesar" % (a))
-a = "    Haha    PP "
-print(a.strip())
-
+    
 # Menghitung jumlah angka genap, positif, negatif, dan ganjil.
 '''''
 ganjil, genap, minus, positif = 0,0,0,0
