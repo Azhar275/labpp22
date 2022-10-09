@@ -1,3 +1,11 @@
+# Soal Modul
+n = int(input("Jumlah angka : "))
+a = 0 ; b = 1 ; c = a + b
+for i in range(n):
+    print(a, end=" ")
+    a = b ; b = c ; c = a + b
+    
+# Soal Prak
 while True:
     derajat = (input("Masukkan derajat :")) 
     c = ''
