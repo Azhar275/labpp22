@@ -5,7 +5,7 @@ gol = gol.upper()
 match gol:
     case "R1":
         if daya == 900: print(f"Jumlah tagihan anda : Rp {pemakaian * 1352}")
-        elif daya == 1300 and daya == 2200: print(f"Jumlah tagihan anda : Rp {pemakaian * 1352}")
+        elif daya == 1300 and daya == 2200: print(f"Jumlah tagihan anda : Rp {pemakaian * 1444.70}")
         else: print("Data Tidak Valid!")
     case "R2":
          print(f"Jumlah tagihan anda : Rp {pemakaian * 1699.53:,}") if daya >= 3500 and daya <= 5500 else print("Data Tidak Valid!")       
