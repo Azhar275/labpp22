@@ -5,7 +5,10 @@ for i in x:
     if i in y:
         if i not in n:
             n.append(str(i))
-print(f"Terdapat {len(n)} buah duplikat yaitu ({','.join(n)})")
+if len(n) == 0:
+    print("Tidak ada duplikat!")
+else:
+    print(f"Terdapat {len(n)} buah duplikat yaitu ({','.join(n)})")
 
 # Cara Kedua
 z = list(map(str, x.intersection(y)))
