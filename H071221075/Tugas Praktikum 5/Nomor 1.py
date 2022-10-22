@@ -7,4 +7,4 @@ for x in range(ukuran):
     for y in range(ukuran):
         for z in range(ukuran):
             matriks_3[x][y] += matriks_1[x][z] * matriks_2[z][y]
-print(f"{matriks_1} X {matriks_2} = {matriks_3}")
+print(f"{matriks_1} X {matriks_2} = {matriks_3}") 
