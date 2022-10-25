@@ -5,7 +5,6 @@ for i in x:
         if i not in n:
             n.append(i)
     
-
 if len(n) == 0:
     print (f"tidak ada duplikat")
 else:
