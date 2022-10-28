@@ -8,6 +8,7 @@ def FPB(num1, num2):
             new.append(str(i))
     print(f"FPB dari ({num1},{num2}) = {''.join(new[-1])}")
 FPB(9 , 0)
+
 # Cara Pertama
 def FPB(num1, num2):
     fpb = 0
