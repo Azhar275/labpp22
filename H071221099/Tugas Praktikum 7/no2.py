@@ -3,7 +3,7 @@
 
 import re
 
-regex_ipv4 = r'^(([0-1]?[\d][\d]?|2[0-4][\d]|25[0-5]).){3}([0-1]?[\d][\d]?|2[0-4][\d]|25[0-5])$'
+regex_ipv4 = r'^(([0-1]?[\d][\d]?|[0-2]?[0-4][\d]|25[0-5]).){3}([0-1]?[\d][\d]?|2[0-4][\d]|25[0-5])$'
 regex_ipv6 = r'(([\d,A-F,a-f]{1,4}?:){7})([\d,A-F,a-f]{1,4})$'
 
 n = int(input(''))
@@ -14,7 +14,6 @@ for i in range(n):
     list_address.append(address)
 
 print() 
-
 
 for x in list_address:
     ipv4 = re.search(regex_ipv4, x)
