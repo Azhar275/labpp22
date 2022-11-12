@@ -25,4 +25,5 @@ class human:
             return("Female")
 Rio = human("Rio", 19, True, 171)
 Kelvin = human("kelvin",20,False,140)
-
+print(Rio.getGender())
+print(Kelvin.getGender())
