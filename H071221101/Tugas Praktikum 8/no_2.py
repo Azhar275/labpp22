@@ -13,7 +13,7 @@ class kubus :
     def setTinggi(self, tinggi) :
         self.tinggi= tinggi
     def setPanjang(self, panjang) :
-        self.panjnag= panjang
+        self.panjang= panjang
     def setMassa(self, massa) :
         self.massa= massa
     def getMassaJenis(self) :
