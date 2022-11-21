@@ -1,22 +1,26 @@
-+--------------------------------+
-| Data Tersimpan                 |
-+--------------------------------+
-| Nama : Mm                      |
-| E-mail : m@student.unhas.ac.id |
-| Password : ddddHHHHH5555       |
-+--------------------------------++--------------------------------+
-| Data Tersimpan                 |
-+--------------------------------+
-| Nama : Mm                      |
-| E-mail : m@student.unhas.ac.id |
-| Password : ddddHHHHH5555       |
-| Nama : m@student.unhas.ac.id   |
-| E-mail : m@student.unhas.ac.id |
-| Password : Mm                  |
-| Nama : m@student.unhas.ac.id   |
-| E-mail : m@student.unhas.ac.id |
-| Password : ff%%TTTTTTT         |
-| Nama : m@student.unhas.ac.id   |
-| E-mail : m@student.unhas.ac.id |
-| Password : 444ffFFFFFFFFFFFf   |
-+--------------------------------+
+
++------------------------------------+
+| Data Tersimpan                     |
++------------------------------------+
+| Nama : Mario                       |
+| E-mail : mario@student.unhas.ac.id |
+| Password : iiiiiiii                |
+| Nama : Mario                       |
+| E-mail : mario@student.unhas.ac.id |
+| Password : 33333333333             |
+| Nama : Mario                       |
+| E-mail : mario@student.unhas.ac.id |
+| Password : ssssssssssss            |
+| Nama : Mario                       |
+| E-mail : mario@student.unhas.ac.id |
+| Password : ggggggggggg             |
+| Nama : Mario                       |
+| E-mail : mario@student.unhas.ac.id |
+| Password : Mr5rddsgsggdgsdg        |
++------------------------------------+
+| Data Tersimpan                    |
++-----------------------------------+
+| Nama : kwan                       |
+| E-mail : kwan@student.unhas.ac.id |
+| Password : kwanK3334432           |
++-----------------------------------+
