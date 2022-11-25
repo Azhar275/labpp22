@@ -15,3 +15,10 @@ support.special(warrior)
 # sesudah
 print("Warrior (health)", warrior.getHealth())
 print("Support (speed): ",support.getSpeed())
+# sebelum
+print("assasin (health)", assassin.getHealth())
+print("Support (speed) : ",support.getSpeed())
+support.special(assassin)
+# sesudah
+print("assassin (health)", assassin.getHealth())
+print("Support (speed): ",support.getSpeed())
