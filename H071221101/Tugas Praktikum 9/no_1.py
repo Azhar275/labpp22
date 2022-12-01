@@ -19,4 +19,4 @@ support.special(warrior)
 
 # sesudah
 print("Warrior (health)", warrior.getHealth())
-print("Support (speed): ",support.getSpeed())
+print("Support (speed): ",support.getSpeed())i
