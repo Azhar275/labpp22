@@ -11,5 +11,5 @@ try:
 
     print ('Berhasil')
 
-except :
+except FileNotFoundError :
     print ('Gagal')
