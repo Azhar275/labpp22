@@ -1,4 +1,4 @@
-# Soal Modul
+# # Soal Modul
 n = int(input("Jumlah angka : "))
 a = 0 ; b = 1 ; c = a + b
 for i in range(n):
@@ -7,8 +7,7 @@ for i in range(n):
     
 # Soal Prak
 while True:
-    derajat = (input("Masukkan derajat :")) 
-    c = ''
+    derajat = (input("Masukkan derajat :")) ; c = ''
     if derajat is not c:
         waktu = (1 / 15) * 3600 * float(derajat)
         jam = waktu // 3600
